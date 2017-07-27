@@ -1,0 +1,15 @@
+.btn-toolbar{
+	margin-top: 10px;
+}
+.dropdown{
+	position: relative;
+}
+body{
+	background: url(fon2.png)repeat-x 0 100% fixed;
+}
+a.spoiler:after{
+	content: "[-]";
+}
+a.spoiler.collapsed:after{
+	content: "[+]";
+}

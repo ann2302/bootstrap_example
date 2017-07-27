@@ -1,0 +1,66 @@
+
+/* Медия запросы
+<link rel="stylesheet" media="only screen and(max-width: 700px;)" href="style.css"/>
+
+@media screen and (max-height:600px){
+	body{
+		background: #313839;	
+	}
+}
+@media screen and(orientation:landscape and portrait){
+	body{
+		background: #313839;	
+	}
+}
+*/
+@media (max-width:992px){
+
+}
+
+@media (max-width:768px){
+	
+}
+*/
+@media (max-width:480px){
+	
+}
+*{
+	margin: 0;
+}
+.wraper{
+	max-width: 1360px;
+}
+body{
+	height: 100%;
+}
+html{
+	position: relative;
+	min-height: 100%;
+	background: url(D:/bootstrap/imag/tecstyra1.jpg);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header{
+	margin-top: 70px;
+    height: 50px;
+	padding-top: 50px;
+	background: #313839;
+
+}
+div.logo { 
+	width:49px; 
+	height:40px;
+	background:url('D:/bootstrap/imag/logo2.png');
+	top left no-repeat;
+}
+.footer{
+	height: 100px;
+	background: #0D0D0D;
+	width: 100%;
+	bottom: 0;
+	position: absolute;s
+	overflow:hidden;
+}
+
